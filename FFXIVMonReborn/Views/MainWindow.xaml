@@ -75,6 +75,7 @@
                     <MenuItem x:Name="HideHexBoxActorIdCheckBox" Header="_Hide Actor IDs in the hex editor" IsCheckable="True" Checked="HideHexBoxActorIdCheckBox_OnChecked" Unchecked="HideHexBoxActorIdCheckBox_OnUnchecked"/>
                     <MenuItem x:Name="StickPacketViewBottomCheckBox" Header="_Stick Packet View to bottom" IsCheckable="True" Checked="StickPacketViewBottomCheckBox_OnChecked" Unchecked="StickPacketViewBottomCheckBox_OnUnchecked"/>
                     <MenuItem x:Name="OodleEnforcedCheckbox" Header="_Require valid Oodle to capture" IsCheckable="True" Checked="OodleEnforcedCheckbox_OnChecked" Unchecked="OodleEnforcedCheckbox_OnUnchecked"/>
+                    <MenuItem x:Name="OodleMethodCheckbox" Header="Use KoreanFfxivUdp instead" IsCheckable="True" Checked="OodleImpleCheckbox_OnChecked" Unchecked="OodleImpleCheckbox_OnUnchecked"/>
                     <Separator></Separator>
                     <MenuItem Header="_Set Repository" Click="SetRepository"/>
                     <MenuItem Header="_Set Game Path" Click="SetGamePath"/>

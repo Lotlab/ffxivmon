@@ -686,6 +686,18 @@ namespace FFXIVMonReborn.Views
             Settings.Default.Save();
         }
 
+        private void OodleImpleCheckbox_OnChecked(object sender, RoutedEventArgs e)
+        {
+            Settings.Default.OodleImplementation = (int)Machina.FFXIV.Oodle.OodleImplementation.KoreanFfxivUdp;
+            Settings.Default.Save();
+        }
+
+        private void OodleImpleCheckbox_OnUnchecked(object sender, RoutedEventArgs e)
+        {
+            Settings.Default.OodleImplementation = (int)Machina.FFXIV.Oodle.OodleImplementation.FfxivUdp;
+            Settings.Default.Save();
+        }
+
         private void ShowFilterHelp(object sender, RoutedEventArgs e)
         {
             var helpStr = "You can use the following commands in Filters, divided by a semicolon:\n\n";
